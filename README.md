@@ -6,16 +6,29 @@ I'm Gustavo, a Mexico-based software developer with 15+ years of experience. I'm
 using GustavoBarrientos;
 
 class Bio : SoftwareDeveloper {
-  string Name     => 'Gustavo Barrientos';
-  string Title    => 'Software Engineer';
-  string Location => 'Monterrey, Nuevo León, México';
+    string Name     => "Gustavo Barrientos";
+    string Title    => "Software Engineer";
+    string Location => "Monterrey, Nuevo León, México";
 }
 
 class Skills : SoftwareDeveloper {
-  List<string> Languages  => ['C#', 'JS', 'TypeScript', 'Objective-C', 'PHP'];
-  List<string> Databases  => ['MySQL', 'MSSQL', 'CosmosDB', 'Neo4j'];
-  List<string> Frameworks => ['Angular', 'Asp.Net', 'Angular', 'Astro'];
-  List<string> Cloud => ['Azure', 'Service Bus', 'Azure Functions', 'Azure AI']
+    List<string> Languages  => ["C#", "JS", "TypeScript", "Objective-C", "PHP"];
+    List<string> Databases  => ["MySQL", "MSSQL", "CosmosDB", "Neo4j"];
+    List<string> Frameworks => ["Angular", "Asp.Net", "Astro"];
+    List<Cloud> Cloud => [
+        new()
+        {
+            Name = "Azure",
+            skills = [
+                "Service Bus",
+                "Azure Functions",
+                "Azure BlobStorage",
+                "Azure Container Apps",
+                "AKS",
+                "Azure OpenAI"
+            ]
+        }
+    ];
 }
 ```
 
