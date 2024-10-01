@@ -8,7 +8,7 @@ using GustavoBarrientos;
 class Bio extends SoftwareDeveloper {
   string Name     => 'Gustavo Barrientos';
   string Title    => 'Software Engineer';
-  string Location => 'Monterrey, Neuvo León, México';
+  string Location => 'Monterrey, Nuevo León, México';
 }
 
 class Skills extends SoftwareDeveloper {
