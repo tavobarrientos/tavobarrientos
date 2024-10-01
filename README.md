@@ -5,13 +5,13 @@ I'm Gustavo, a Mexico-based software developer with 15+ years of experience. I'm
 ```csharp
 using GustavoBarrientos;
 
-class Bio extends SoftwareDeveloper {
+class Bio : SoftwareDeveloper {
   string Name     => 'Gustavo Barrientos';
   string Title    => 'Software Engineer';
   string Location => 'Monterrey, Nuevo León, México';
 }
 
-class Skills extends SoftwareDeveloper {
+class Skills : SoftwareDeveloper {
   List<string> Languages  => ['C#', 'JS', 'TypeScript', 'Objective-C', 'PHP'];
   List<string> Databases  => ['MySQL', 'MSSQL', 'CosmosDB', 'Neo4j'];
   List<string> Frameworks => ['Angular', 'Asp.Net', 'Angular', 'Astro'];
