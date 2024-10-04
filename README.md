@@ -9,6 +9,7 @@ class Bio : SoftwareDeveloper {
     string Name     => "Gustavo Barrientos";
     string Title    => "Software Engineer";
     string Location => "Monterrey, Nuevo León, México";
+    Uri Blog => new Uri("https://www.barrientos.io");
 }
 
 class Skills : SoftwareDeveloper {
