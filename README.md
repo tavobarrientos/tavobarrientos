@@ -10,6 +10,7 @@ class Bio : SoftwareDeveloper {
     string Title    => "Software Engineer";
     string Location => "Monterrey, Nuevo León, México";
     Uri Blog => new Uri("https://www.barrientos.io");
+    Uri Ambystech => new Uri("https://www.ambystech.com");
 }
 
 class Skills : SoftwareDeveloper {
@@ -25,8 +26,9 @@ class Skills : SoftwareDeveloper {
                 "Azure Functions",
                 "Azure BlobStorage",
                 "Azure Container Apps",
+                "Azure Static Webapps",
                 "AKS",
-                "Azure OpenAI"
+                "Azure AI Foundry"
             ]
         }
     ];
