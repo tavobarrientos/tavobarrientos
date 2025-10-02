@@ -47,5 +47,8 @@ class Skills : SoftwareDeveloper {
 ![Gustavo's GitHub stats](https://github-readme-stats.vercel.app/api?username=tavobarrientos&show_icons=true&theme=holi) 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tavobarrientos&langs_count=4&layout=compact)
 
-  
-I also you can find me in my blog: [https://barrientos.io](https://barrientos.io)
+## 📫 Let’s connect
+- 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-barrientos)  
+- 🌐 [ambystech.com](https://www.ambystech.com)  
+- 📝 [barrientos.io](https://barrientos.io)  
+- ✉️ gustavo.barrientos@ambystech.com  
