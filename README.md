@@ -18,6 +18,7 @@ I'm Gustavo, a Mexico-based software developer with 15+ years of experience. I'm
   <img src="https://img.shields.io/badge/MCP-EE1199?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Claude%20Code-EE1199?style=flat-square&logo=anthropic&logoColor=white" />
 </p>
+
 ```csharp
 using Ambystech.Ai;
 using GustavoBarrientos;
@@ -65,15 +66,6 @@ public sealed record OpenSource() : AiArchitect
 
 public readonly record struct Project(string Name, string About);
 ```
-
-
-![.NET](https://img.shields.io/badge/.Net-430098?style=for-the-badge&logo=.net&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-338eef?style=for-the-badge&logo=azure&logoColor=white)
-![Github](https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white)
-
-
 
 ![Gustavo's GitHub stats](https://github-readme-stats.vercel.app/api?username=tavobarrientos&show_icons=true&theme=holi) 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tavobarrientos&langs_count=4&layout=compact)
