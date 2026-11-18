@@ -9,7 +9,7 @@ I'm Gustavo, a Mexico-based software developer with 15+ years of experience. I'm
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-3C69E7?style=flat-square&logo=csharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/.NET%209-3C69E7?style=flat-square&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/.NET%2010-3C69E7?style=flat-square&logo=dotnet&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3C69E7?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3C69E7?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Azure-00CCFF?style=flat-square&logo=microsoftazure&logoColor=0A0D14" />
