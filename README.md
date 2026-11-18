@@ -39,15 +39,15 @@ public sealed record Bio() : AiArchitect
 public sealed record Stack() : AiArchitect
 {
     public string[] Languages  => ["C#", "TypeScript", "Python"];
-    public string[] Frameworks => [".NET 9", "ASP.NET Core", "Angular", "Astro"];
+    public string[] Frameworks => [".NET 10", "ASP.NET Core", "Angular", "Astro", "Agent Framework", "LangChain"];
     public string[] Data       => ["MSSQL", "CosmosDB", "Neo4j", "Qdrant"];
-    public string[] Cloud      => ["Azure AI Foundry", "Container Apps", "Functions", "Service Bus", "AKS"];
+    public string[] Cloud      => ["Azure", "AWS"];
 
     public AiPlatform Ai => new()
     {
         Protocols = ["MCP", "A2A"],
         Patterns  = ["Multi-agent", "RAG", "Spec-Driven Development"],
-        Tools     = ["Claude Code", "OpenCode", "Cursor"]
+        Tools     = ["Claude Code", "OpenCode", "Cursor", "Grok", "Orca", "Herdr"]
     };
 }
 
@@ -57,7 +57,8 @@ public sealed record OpenSource() : AiArchitect
     [
         new("Elaris.UI",         "True-color terminal UI for .NET"),
         new("Neo4j.Repository",  "Generic repository pattern for Neo4j"),
-        new("AmbyKit",           "Spec-driven development for AI coding agents")
+        new("AmbyKit",           "Spec-driven development for AI coding agents"),
+        new("Ambystech.Relate",  "C# driver + ADO.NET provider for Relate by Neo4j")
     ];
 
     public string License => "MIT, always.";
