@@ -34,35 +34,37 @@ public sealed record Bio() : AiArchitect
     public Uri Blog       => new("https://www.barrientos.io");
     public Uri Ambystech  => new("https://www.ambystech.com");
     public Uri OpenSource => new("https://www.ambystech.io");
-}
 
-public sealed record Stack() : AiArchitect
-{
-    public string[] Languages  => ["C#", "TypeScript", "Python"];
-    public string[] Frameworks => [".NET 10", "ASP.NET Core", "Angular", "Astro", "Agent Framework", "LangChain"];
-    public string[] Data       => ["MSSQL", "CosmosDB", "Neo4j", "Qdrant"];
-    public string[] Cloud      => ["Azure", "AWS"];
+    public Uri Org        => new("https://github.com/ambystechcom");
 
-    public AiPlatform Ai => new()
+    public Stack Stack => new()
+    {
+        Languages  => ["C#", "TypeScript", "Python"],
+        Frameworks => [".NET 10", "ASP.NET Core", "Angular", "Astro", "Agent Framework", "LangChain"],
+        Data       => ["MSSQL", "CosmosDB", "Neo4j", "Qdrant"],
+        Cloud      => ["Azure", "AWS"]
+    }
+
+    public AIPlatform AI => new()
     {
         Protocols = ["MCP", "A2A"],
         Patterns  = ["Multi-agent", "RAG", "Spec-Driven Development"],
         Tools     = ["Claude Code", "OpenCode", "Cursor", "Grok", "Orca", "Herdr"]
-    };
-}
+    }
 
-public sealed record OpenSource() : AiArchitect
-{
-    public Project[] Projects =>
-    [
-        new("Elaris.UI",         "True-color terminal UI for .NET"),
-        new("Neo4j.Repository",  "Generic repository pattern for Neo4j"),
-        new("AmbyKit",           "Spec-driven development for AI coding agents"),
-        new("Ambystech.Relate",  "C# driver + ADO.NET provider for Relate by Neo4j")
-    ];
+    public OpenSource OpenSource => new()
+    {
+        Projects =>
+        [
+            new("Elaris.UI",         "True-color terminal UI for .NET"),
+            new("Neo4j.Repository",  "Generic repository pattern for Neo4j"),
+            new("AmbyKit",           "Spec-driven development for AI coding agents"),
+            new("Ambystech.Relate",  "C# driver + ADO.NET provider for Relate by Neo4j")
+        ];
+    
+        License => "MIT, always.";
+    }
 
-    public string License => "MIT, always.";
-    public Uri Org        => new("https://github.com/ambystechcom");
 }
 
 public readonly record struct Project(string Name, string About);
@@ -72,7 +74,7 @@ public readonly record struct Project(string Name, string About);
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tavobarrientos&langs_count=4&layout=compact)
 
 ## 📫 Let’s connect
-- 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-barrientos)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/gustavobarrientos)  
 - 🌐 [ambystech.com](https://www.ambystech.com)  
 - 📝 [barrientos.io](https://barrientos.io)  
 - ✉️ gustavo.barrientos@ambystech.com  
